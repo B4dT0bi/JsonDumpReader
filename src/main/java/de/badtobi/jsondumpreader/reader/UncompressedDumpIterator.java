@@ -3,13 +3,10 @@ package de.badtobi.jsondumpreader.reader;
 import com.google.gson.Gson;
 import de.badtobi.jsondumpreader.DumpReader;
 import de.badtobi.jsondumpreader.DumpReaderFactory;
-import org.apache.commons.compress.compressors.CompressorException;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Iterator;
-import java.util.Objects;
-import java.util.function.Consumer;
 
 /**
  * Created by b4dt0bi on 26.05.16.
@@ -65,13 +62,4 @@ public class UncompressedDumpIterator<T> implements Iterator<T> {
     public void remove() {
         throw new UnsupportedOperationException("remove");
     }
-
-    public void forEachRemaining(Consumer<? super T> var1) {
-        Objects.requireNonNull(var1);
-
-        while(this.hasNext()) {
-            var1.accept(this.next());
-        }
-    }
-
 }
