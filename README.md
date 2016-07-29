@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/B4dT0bi/JsonDumpReader.svg?branch=master)](https://travis-ci.org/B4dT0bi/JsonDumpReader)
+
 # JsonDumpReader
 
 **JsonDumpReader** (for Java) provides ways to read from and iterate through the [Wikibase](http://wikiba.se/)
