@@ -4,19 +4,19 @@
 
     <groupId>de.badtobi</groupId>
     <artifactId>JsonDumpReader</artifactId>
-    <version>1.0</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/B4dT0bi/JsonDumpReader.git</connection>
         <developerConnection>scm:git:git@github.com:B4dT0bi/JsonDumpReader.git</developerConnection>
         <url>https://github.com/B4dT0bi/JsonDumpReader</url>
-        <tag>JsonDumpReader-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/B4dT0bi/maven/JsonDumpReader;publish=1;</url>
+            <url>https://api.bintray.com/maven/B4dT0bi/maven/JsonDumpReader</url>
         </repository>
     </distributionManagement>
 
